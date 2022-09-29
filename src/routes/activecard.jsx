@@ -1,7 +1,11 @@
-export default function ActiveCard() {
-    return (
-      <main style={{ padding: "1rem 0" }}>
-        <h2>ActiveCard here</h2>
-      </main>
-    );
-  }
+import React from 'react';
+
+const activecard = () => {
+  return (
+    <div>
+      <h2>Active Card Page</h2>
+    </div>
+  );
+};
+
+export default activecard;

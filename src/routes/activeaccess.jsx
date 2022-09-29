@@ -1,7 +1,11 @@
-export default function ActiveAccess() {
-    return (
-      <main style={{ padding: "1rem 0" }}>
-        <h2>Active Acceses Here</h2>
-      </main>
-    );
-  }
+import React from 'react';
+
+const activeaccess = () => {
+  return (
+    <div>
+      <h2>Active Access Page</h2>
+    </div>
+  );
+};
+
+export default activeaccess;

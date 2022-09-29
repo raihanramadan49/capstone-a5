@@ -1,7 +1,11 @@
-export default function Analytics() {
-    return (
-      <main style={{ padding: "1rem 0" }}>
-        <h2>Analytics here</h2>
-      </main>
-    );
-  }
+import React from 'react';
+
+const analytics = () => {
+  return (
+    <div>
+      <h2>Analytics Page</h2>
+    </div>
+  );
+};
+
+export default analytics;

@@ -1,7 +1,11 @@
-export default function History() {
-    return (
-      <main style={{ padding: "1rem 0" }}>
-        <h2>History Here</h2>
-      </main>
-    );
-  }
+import React from 'react';
+
+const history = () => {
+  return (
+    <div>
+      <h2>History Page</h2>
+    </div>
+  );
+};
+
+export default history;
